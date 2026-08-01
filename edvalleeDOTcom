@@ -1,1 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ed Vallee | Singer/Songwriter</title>
+	<meta name="description" content="Meet Ed Vallee, Singer/Songwriter. Learn about latest music projects and new releases, tourdates, videos, streaming, downloads and more!">
+    <script src="https://cdn.tailwindcss.com"></script>
+	<link rel="canonical" href="https://edvallee.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Custom CSS for animations and gallery */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        .fade-in {
+            animation: fadeIn 1s ease-in;
+        }
+        
+        .gallery-item {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .gallery-item:hover {
+            transform: scale(1.03);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+        
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
+			background-size: cover;
+            background-position: center;
+            height: 80vh;
+        }
+        
+        .nav-link {
+            position: relative;
+        }
+        
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -2px;
+            left: 0;
+            background-color: white;
+            transition: width 0.3s ease;
+        }
+        
+        .nav-link:hover::after {
+            width: 100%;
+        }
+    </style>
+	<meta name="google-site-verification" content="wdEXtkBlYt_UfstRa6_RiARD4BRb7XKEAdU2KAVxWjA" />
+</head>
+<body class="bg-gray-900 text-white font-sans">
+    <!-- Navigation -->
+    <nav class="bg-black bg-opacity-90 fixed w-full z-10 shadow-lg">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-bold">
+                    <span class="text-white">ED VALLEE</span>
+                    <span class="text-purple-500">Singer/Songwriter</span>
+                </div>
+                
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#music" class="nav-link">Music</a>
+                    <a href="#tour" class="nav-link">Tour</a>
+                    <a href="#gallery" class="nav-link">Gallery</a>
+					<a href="https://edvallee.com/contact.html" class="nav-link">Contact</a>
+                    <a href="https://edvallee.bandcamp.com/" target="_blank" class="nav-link flex items-center">
+                        <span>Store</span>
+                        <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                    </a>
+                </div>
+                
+                <div class="md:hidden">
+                    <button id="menu-toggle" class="text-white focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Mobile menu -->
+            <div id="mobile-menu" class="hidden md:hidden mt-4 pb-4">
+                <a href="#home" class="block py-2">Home</a>
+                <a href="#music" class="block py-2">Music</a>
+                <a href="#tour" class="block py-2">Tour</a>
+                <a href="#gallery" class="block py-2">Gallery</a>
+				<a href="https://edvallee.com/contact.html" class="block py-2">Contact</a>
+                <a href="https://edvallee.bandcamp.com/" target="_blank" class="block py-2 flex items-center">
+                    <span>Store</span>
+                    <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
 
+    <!-- Hero Section -->
+    <section id="home" class="hero flex items-center justify-center text-center fade-in pt-16">
+        <div class="px-6">
+            <h1 class="text-5xl md:text-7xl font-bold mb-6">
+                <span class="text-white">ED</span> VALLEE
+            </h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
+                Crafting sonic landscapes that resonate with your soul
+            </p>
+            <div class="flex justify-center space-x-4">
+                <a href="#music" class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-full font-medium transition duration-300">
+                    Latest Release
+                </a>
+                <a href="#tour" class="bg-transparent border-2 border-white hover:bg-white hover:text-black text-white px-6 py-3 rounded-full font-medium transition duration-300">
+                    Tour Dates
+                </a>
+            </div>
+        </div>
+    </section>
+	<!--music section-->
+	<section id="music" class="py-20 px-6">
+        <div class="container mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">Latest Release: October 21, 2025</h2>
+            
+            <div class="flex flex-col lg:flex-row items-center">
+                <div class="lg:w-1/2 mb-10 lg:mb-0 lg:pr-10">
+                    <div class="aspect-w-16 aspect-h-9">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/IBJRtZPYmlo?si=Mrf6uppMdfkMFWgu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+						<!--<iframe width="560" height="315" src="https://www.youtube.com/embed/DvlhEy1Qsig?si=530uklnQrdqffIJg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>-->
+                        <!--<iframe width="560" height="315" src="https://youtu.be/DvlhEy1Qsig" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>-->
+						<!--<iframe class="w-full h-96" src="https://youtu.be/o48FgJ-Hlv4?si=q969fhobamSLRVA5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                    </div>
+                </div>
+                
+                <div class="lg:w-1/2">
+                    <h3 class="text-2xl font-bold mb-4">"While There's Still Time" - New Single featuring Paula Clare</h3>
+                    <p class="text-gray-300 mb-6">
+                        Born from the creative synergy of songwriting partners Ed Vallee and Kelly Padrick, "While There's Still Time" emerged from the vibrant New York City music scene of the late 1980s.
+
+Set against a light-hearted, medium-tempo reggae groove in a major key, the song’s emotional lyrics create a poignant contrast, revealing deep regret and longing beneath the upbeat rhythm. While the music suggests ease and sunshine, the words tell a story of lost love, missed chances, and a desperate hope to reconnect before time runs out. This juxtaposition highlights the bittersweet tension between the carefree sound and the heartfelt emotional weight of the message.
+
+Fast forward thirty years later, “While There’s Still Time” conveys the timeless universal vibe with excellent studio production by Ed Vallee and captivating vocals by Paula Clare.
+                    </p>
+                    
+                    <div class="mb-8">
+                        <h4 class="text-xl font-semibold mb-3">Available on:</h4>
+                        <div class="flex flex-wrap gap-3">
+                            <a href="https://open.spotify.com/track/5bpHdYBmzooKHnhStvcuWn?si=e04e3dc3c57f4ccb" class="bg-gray-800 hover:bg-gray-700 px-4 py-2 rounded flex items-center">
+                                <i class="fab fa-spotify mr-2 text-green-500"></i>
+                                Spotify
+                            </a>
+                            <a href="http://itunes.apple.com/album/id/1839899295" class="bg-gray-800 hover:bg-gray-700 px-4 py-2 rounded flex items-center">
+                                <i class="fab fa-apple mr-2 text-purple-500"></i>
+                                Apple Music
+                            </a>
+                            <a href="https://edvallee.bandcamp.com/track/while-theres-still-time" target="_blank" class="bg-gray-800 hover:bg-gray-700 px-4 py-2 rounded flex items-center">
+                                <i class="fab fa-bandcamp mr-2 text-blue-500"></i>
+                                Bandcamp
+                            </a>
+							<a href="https://edvallee.bandcamp.com/track/while-theres-still-time" target="_blank" class="bg-gray-800 hover:bg-gray-700 px-4 py-2 rounded flex items-center">
+                                <i class="fab fa-bandcamp mr-2 text-blue-500"></i>
+                                Download
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h4 class="text-xl font-semibold mb-3">Credits:</h4>
+                        <ul class="text-gray-300 space-y-1">
+                            <li>Words and Music by Kelly Padrick & Ed Vallee</li>
+                            <li>Featured vocalist, Paula Clare</li>
+                            <li>Recorded and Mixed by Emerson Torrey at Satellite Studios</li>
+                            <li>Guitars and Keyboards, Ed Vallee</li>
+							<li>Electric Bass Guitar, Mike Marra</li>
+							<li>Drums, Percussion and Steel Drums, Rick Andre</li>
+							<li>Cover Art by Valleeman Productions</li>
+                        </ul><br>
+                    </div>
+					<div>
+						<h4 class="text-xl font-semibold mb-3">Review:</h4>
+						<blockquote class="text-gray-300 mb-6">"Sounds wonderful Ed, I love how the light and happy feeling of the track contrasts the heaviness of the lyric. Performances and production are stellar! Thank you for sharing!"<br>-Brian Maes</blockquote>
+					</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Music Section -->
+    <section id="music" class="py-20 px-6">
+        <div class="container mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">Release Date: June 10, 2025</h2>
+            
+            <div class="flex flex-col lg:flex-row items-center">
+                <div class="lg:w-1/2 mb-10 lg:mb-0 lg:pr-10">
+                    <div class="aspect-w-16 aspect-h-9">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/DvlhEy1Qsig?si=530uklnQrdqffIJg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <!--<iframe width="560" height="315" src="https://youtu.be/DvlhEy1Qsig" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>-->
+						<!--<iframe class="w-full h-96" src="https://youtu.be/o48FgJ-Hlv4?si=q969fhobamSLRVA5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                    </div>
+                </div>
+                
+                <div class="lg:w-1/2">
+                    <h3 class="text-2xl font-bold mb-4">"The Stranger I Chose" - New Single featuring Paula Clare</h3>
+                    <p class="text-gray-300 mb-6">
+                        Born from the creative synergy of songwriting partners Ed Vallee and Kelly Padrick, "The Stranger I Chose" emerged from the vibrant New York City music scene of the late 1980s.
+
+This evocative composition explores the complex emotional aftermath of a fleeting encounter - where moments of passion give way to creeping regret, gnawing mistrust, and the sting of betrayal. The song masterfully captures the haunting duality of transgressive desire.
+
+Originally recorded in a raw, intimate session at Ed Vallee's home studio (2011), the song has now been reimagined with lush production and the captivating vocals of Paula Clare, breathing new life into this timeless story.
+                    </p>
+                    
+                    <div class="mb-8">
+                        <h4 class="text-xl font-semibold mb-3">Available on:</h4>
+                        <div class="flex flex-wrap gap-3">
+                            <a href="https://open.spotify.com/track/2hf9zda1dDLbeE3FhSrDxR?si=ccd956bc98e6493c" class="bg-gray-800 hover:bg-gray-700 px-4 py-2 rounded flex items-center">
+                                <i class="fab fa-spotify mr-2 text-green-500"></i>
+                                Spotify
+                            </a>
+                            <a href="http://itunes.apple.com/album/id/1814524861" class="bg-gray-800 hover:bg-gray-700 px-4 py-2 rounded flex items-center">
+                                <i class="fab fa-apple mr-2 text-purple-500"></i>
+                                Apple Music
+                            </a>
+                            <a href="https://edvallee.bandcamp.com/track/the-stranger-i-chose" target="_blank" class="bg-gray-800 hover:bg-gray-700 px-4 py-2 rounded flex items-center">
+                                <i class="fab fa-bandcamp mr-2 text-blue-500"></i>
+                                Bandcamp
+                            </a>
+							<a href="https://edvallee.bandcamp.com/track/the-stranger-i-chose" target="_blank" class="bg-gray-800 hover:bg-gray-700 px-4 py-2 rounded flex items-center">
+                                <i class="fab fa-bandcamp mr-2 text-blue-500"></i>
+                                Download
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h4 class="text-xl font-semibold mb-3">Credits:</h4>
+                        <ul class="text-gray-300 space-y-1">
+                            <li>Written & Produced by Ed Vallee</li>
+                            <li>Featured vocalist, Paula Clare</li>
+                            <li>Recorded and Mixed by Emerson Torrey at Satellite Studios</li>
+                            <li>Artwork by Valleeman Productions</li>
+                        </ul><br>
+                    </div>
+					<div>
+						<h4 class="text-xl font-semibold mb-3">Review:</h4>
+						<blockquote class="text-gray-300 mb-6">"It's refreshing to hear good, clean music being written and recorded today. I especially enjoyed the classical guitar inserts — they fit perfectly. The lyrics also feel authentic and sincere."<br>-Mickey Litherland</blockquote>
+					</div>
+                </div>
+            </div>
+        </div>
+    </section>
+	<!-- Music Section -->
+    <section id="music" class="py-20 px-6">
+        <div class="container mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">Release Date: April 02, 2025</h2>
+            
+            <div class="flex flex-col lg:flex-row items-center">
+                <div class="lg:w-1/2 mb-10 lg:mb-0 lg:pr-10">
+                    <div class="aspect-w-16 aspect-h-9">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/o48FgJ-Hlv4?si=q969fhobamSLRVA5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+						<!--<iframe class="w-full h-96" src="https://youtu.be/o48FgJ-Hlv4?si=q969fhobamSLRVA5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                    </div>
+                </div>
+                
+                <div class="lg:w-1/2">
+                    <h3 class="text-2xl font-bold mb-4">"Sunrise, I See It Coming" - New Single featuring Paula Clare</h3>
+                    <p class="text-gray-300 mb-6">
+                        "Sunrise, I See It Coming" takes you on a journey through mindscapes of hope and faith. Recorded at an Atlantic seashore for its natural vibe, this track captures the essence of early-morning introspection.
+                    </p>
+                    
+                    <div class="mb-8">
+                        <h4 class="text-xl font-semibold mb-3">Available on:</h4>
+                        <div class="flex flex-wrap gap-3">
+                            <a href="https://open.spotify.com/track/67YRQUH9M79kgyaAUFOCT3?si=b31c75da39ac4b31" class="bg-gray-800 hover:bg-gray-700 px-4 py-2 rounded flex items-center">
+                                <i class="fab fa-spotify mr-2 text-green-500"></i>
+                                Spotify
+                            </a>
+                            <a href="https://music.apple.com/us/album/sunrise-i-see-it-coming-single/1807250241" class="bg-gray-800 hover:bg-gray-700 px-4 py-2 rounded flex items-center">
+                                <i class="fab fa-apple mr-2 text-purple-500"></i>
+                                Apple Music
+                            </a>
+                            <a href="https://edvallee.bandcamp.com/track/sunrise-i-see-it-coming" target="_blank" class="bg-gray-800 hover:bg-gray-700 px-4 py-2 rounded flex items-center">
+                                <i class="fab fa-bandcamp mr-2 text-blue-500"></i>
+                                Bandcamp
+                            </a>
+							<a href="https://edvallee.bandcamp.com/track/sunrise-i-see-it-coming" target="_blank" class="bg-gray-800 hover:bg-gray-700 px-4 py-2 rounded flex items-center">
+                                <i class="fab fa-bandcamp mr-2 text-blue-500"></i>
+                                Download
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h4 class="text-xl font-semibold mb-3">Credits:</h4>
+                        <ul class="text-gray-300 space-y-1">
+                            <li>Written & Produced by Ed Vallee</li>
+                            <li>Recorded and Mixed by Emerson Torrey at Satellite Studios</li>
+                            <li>Mastered by Emerson Torrey</li>
+                            <li>Artwork by Rick Couto, Orange Dot Design</li>
+                        </ul><br>
+                    </div>
+					<div>
+						<h4 class="text-xl font-semibold mb-3">Review:</h4>
+						<blockquote class="text-gray-300 mb-6">"The performance is delicate and authentic, conveying the essence of the music in an impressive way. It's a track that carries a subtle and, at the same time, intense beauty, leaving a lasting impression."<br>-SubmitHub Team</blockquote>
+					</div>
+                </div>
+            </div>
+        </div>
+    </section>>
+	<!--  End Music Section -->
+    
+	<!-- Tour Section -->
+	<section id="tour" class="py-20 px-6 bg-gray-800">
+	<div class="container mx-auto">
+	<script charset="utf-8" src="https://widgetv3.bandsintown.com/main.min.js"></script>
+  <a class="bit-widget-initializer"
+    
+		data-artist-name="id_15528520"
+	
+		data-events-to-display=""
+		data-background-color="rgba(0,0,0,1)"
+		data-separator-color="#DDDDDD"
+		data-text-color="rgba(245,241,241,1)"
+		data-font="Trebuchet MS"
+		data-auto-style="true"
+	
+		data-button-label-capitalization="uppercase"
+		data-header-capitalization="uppercase"
+		data-location-capitalization="uppercase"
+		data-venue-capitalization="uppercase"
+		data-display-local-dates="true"
+		data-local-dates-position="tab"
+		data-display-past-dates="true"
+		data-display-details="true"
+		data-display-lineup="false"
+		data-display-start-time="true"
+		data-social-share-icon="true"
+		data-display-limit="all"
+	
+		data-date-format="MMMM D, YYYY"
+		data-date-orientation="horizontal"
+		data-date-border-color="#4A4A4A"
+		data-date-border-width="1px"
+		data-date-capitalization="uppercase"
+		data-date-border-radius="10px"
+	
+		data-event-ticket-cta-size="small"
+		data-event-custom-ticket-text=""
+		data-event-ticket-text="TICKETS"
+		data-event-ticket-icon="false"
+		data-event-ticket-cta-text-color="#FFFFFF"
+		data-event-ticket-cta-bg-color="#4A4A4A"
+		data-event-ticket-cta-border-color="#4A4A4A"
+		data-event-ticket-cta-border-width="0px"
+		data-event-ticket-cta-border-radius="4px"
+	
+		data-sold-out-button-text-color="#FFFFFF"
+		data-sold-out-button-background-color="#4A4A4A"
+		data-sold-out-button-border-color="#4A4A4A"
+		data-sold-out-button-clickable="true"
+	
+		data-event-rsvp-position="left"
+		data-event-rsvp-cta-size="small"
+		data-event-rsvp-only-show-icon="false"
+		data-event-rsvp-text="SET REMINDER"
+		data-event-rsvp-icon="false"
+		data-event-rsvp-cta-text-color="#4A4A4A"
+		data-event-rsvp-cta-bg-color="#FFFFFF"
+		data-event-rsvp-cta-border-color="#4A4A4A"
+		data-event-rsvp-cta-border-width="1px"
+		data-event-rsvp-cta-border-radius="4px"
+	
+		data-follow-section-position="top"
+		data-follow-section-alignment="center"
+		data-follow-section-header-text="TOUR DATES"
+		data-follow-section-cta-size="large"
+		data-follow-section-cta-text="FOLLOW"
+		data-follow-section-cta-icon="true"
+		data-follow-section-cta-text-color="#FFFFFF"
+		data-follow-section-cta-bg-color="#4A4A4A"
+		data-follow-section-cta-border-color="#4A4A4A"
+		data-follow-section-cta-border-width="0px"
+		data-follow-section-cta-border-radius="4px"
+		
+		data-play-my-city-position="hidden"
+		data-play-my-city-alignment="Center"
+		data-play-my-city-header-text="Don’t see a show near you?"
+		data-play-my-city-cta-size="medium"
+		data-play-my-city-cta-text="REQUEST A SHOW"
+		data-play-my-city-cta-icon="true"
+		data-play-my-city-cta-text-color="#FFFFFF"
+		data-play-my-city-cta-bg-color="#4A4A4A"
+		data-play-my-city-cta-border-color="#4A4A4A"
+		data-play-my-city-cta-border-width="0px"
+		data-play-my-city-cta-border-radius="4px"
+		
+		data-optin-font=""
+		data-optin-text-color=""
+		data-optin-bg-color=""
+		data-optin-cta-text-color=""
+		data-optin-cta-bg-color=""
+		data-optin-cta-border-width=""
+		data-optin-cta-border-radius=""
+		data-optin-cta-border-color=""
+		
+		data-language="en"
+		data-layout-breakpoint="900"
+		data-app-id=""
+		data-affil-code=""
+		data-bit-logo-position="bottomRight"
+		data-bit-logo-color="rgba(245,241,241,1)"
+	
+    ></a>
+	</div>
+	</section>
+    <!-- Tour Section 
+    <section id="tour" class="py-20 px-6 bg-gray-800">
+        <div class="container mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">Tour Dates</h2>
+            
+            <div class="max-w-4xl mx-auto">
+                <div class="bg-gray-900 rounded-lg overflow-hidden shadow-xl">
+                    <div class="divide-y divide-gray-700">
+                        
+                        <div class="p-6 hover:bg-gray-850 transition duration-300">
+                            <div class="flex flex-col md:flex-row md:items-center md:justify-between">
+                                <div class="mb-4 md:mb-0">
+                                    <div class="text-xl font-semibold">June 15, 2023</div>
+                                    <div class="text-gray-400">The Velvet Lounge • Chicago, IL</div>
+                                </div>
+                                <div class="flex items-center space-x-4">
+                                    <a href="#" class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-2 rounded-full text-sm font-medium transition duration-300">
+                                        Tickets
+                                    </a>
+                                    <div class="text-xs bg-yellow-500 text-black px-2 py-1 rounded-full font-bold">
+                                        SOLD OUT
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="p-6 hover:bg-gray-850 transition duration-300">
+                            <div class="flex flex-col md:flex-row md:items-center md:justify-between">
+                                <div class="mb-4 md:mb-0">
+                                    <div class="text-xl font-semibold">June 22, 2023</div>
+                                    <div class="text-gray-400">The Underground • Seattle, WA</div>
+                                </div>
+                                <div>
+                                    <a href="#" class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-2 rounded-full text-sm font-medium transition duration-300">
+                                        Tickets
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="p-6 hover:bg-gray-850 transition duration-300">
+                            <div class="flex flex-col md:flex-row md:items-center md:justify-between">
+                                <div class="mb-4 md:mb-0">
+                                    <div class="text-xl font-semibold">July 5, 2023</div>
+                                    <div class="text-gray-400">The Echo • Los Angeles, CA</div>
+                                </div>
+                                <div>
+                                    <a href="#" class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-2 rounded-full text-sm font-medium transition duration-300">
+                                        Tickets
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="p-6 hover:bg-gray-850 transition duration-300">
+                            <div class="flex flex-col md:flex-row md:items-center md:justify-between">
+                                <div class="mb-4 md:mb-0">
+                                    <div class="text-xl font-semibold">July 12, 2023</div>
+                                    <div class="text-gray-400">Bowery Ballroom • New York, NY</div>
+                                </div>
+                                <div>
+                                    <a href="#" class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-2 rounded-full text-sm font-medium transition duration-300">
+                                        Tickets
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mt-8 text-center">
+                    <p class="text-gray-400 mb-4">Want us to come to your city?</p>
+                    <button class="bg-transparent border border-purple-500 text-purple-500 hover:bg-purple-500 hover:text-white px-6 py-2 rounded-full font-medium transition duration-300">
+                        Request a Show
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-20 px-6">
+        <div class="container mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">Gallery</h2>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Photo 1 -->
+                <div class="gallery-item rounded-lg overflow-hidden shadow-lg">
+                    <img src="Images/FB_IMG_1483941944109.jpg" alt="RI Music Hall Of Fame" class="w-full h-64 object-cover">
+                    <div class="p-4 bg-gray-800">
+                        <p class="text-sm text-gray-300">Inducted Into Rhode Island Music Hall Of Fame, 2013</p>
+                    </div>
+                </div>
+                
+                <!-- Photo 2 -->
+                <div class="gallery-item rounded-lg overflow-hidden shadow-lg">
+                    <img src="Images/FB_IMG_1503412914771.jpg" alt="Tour With Clarence Clemons" class="w-full h-64 object-cover">
+                    <div class="p-4 bg-gray-800">
+                        <p class="text-sm text-gray-300">Touring with Clarence Clemons, 2009 </p>
+                    </div>
+                </div>
+                
+                <!-- Photo 3 -->
+                <div class="gallery-item rounded-lg overflow-hidden shadow-lg">
+                    <img src="Images/FB_IMG_1458275465377.jpg" alt="Summer Concert Tour, 2018" class="w-full h-64 object-cover">
+                    <div class="p-4 bg-gray-800">
+                        <p class="text-sm text-gray-300">Concert Tour with The Nakeds, Bristol, RI,  July 2018</p>
+                    </div>
+                </div>
+                
+                <!-- Photo 4 -->
+                <div class="gallery-item rounded-lg overflow-hidden shadow-lg">
+                    <img src="Images/PidgeonForge_2017.jpg" alt="Pidgeon Forge, TN" class="w-full h-64 object-cover">
+                    <div class="p-4 bg-gray-800">
+                        <p class="text-sm text-gray-300">Visiting Pidgeon Forge, TN, September 2017</p>
+                    </div>
+                </div>
+                
+                <!-- Photo 5 -->
+                <div class="gallery-item rounded-lg overflow-hidden shadow-lg">
+                    <img src="Images/StevenVanZandt.jpg" alt="HomeSafe Concert, Hollywood, FL, 2010" class="w-full h-64 object-cover">
+                    <div class="p-4 bg-gray-800">
+                        <p class="text-sm text-gray-300">HomeSafe Concert with Steven Van Zandt, Hollywood, FL, 2010</p>
+                    </div>
+                </div>
+                
+                <!-- Photo 6 -->
+                <div class="gallery-item rounded-lg overflow-hidden shadow-lg">
+                    <img src="Images/HardRock_HomeSafe.jpg" alt="Onstage with The Big Man" class="w-full h-64 object-cover">
+                    <div class="p-4 bg-gray-800">
+                        <p class="text-sm text-gray-300">On Stage with Clarence Clemons, Hollywood, FL, 2010</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-12 text-center">
+                <button class="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 rounded-full font-medium transition duration-300">
+                    View More Photos
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="py-16 bg-gray-800 px-6">
+        <div class="container mx-auto max-w-4xl text-center">
+            <h2 class="text-3xl font-bold mb-6">Keep In Touch</h2>
+            <p class="text-gray-300 mb-8 max-w-2xl mx-auto">
+                Have questions or want to discuss a project? Drop me a message and I'll get back to you soon..
+            </p>
+            
+            <form class="flex flex-col sm:flex-row gap-4 max-w-md mx-auto" action="https://formsubmit.co/e40fe620c1893f5f678bb90731b68aa2" method="POST">
+                <input type="email" name="email" required placeholder="your email address" class="flex-grow px-4 py-3 rounded-full bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-purple-500">
+				<input type="name" name="name" required placeholder="your full name" class="flex-grow px-4 py-3 rounded-full bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-purple-500">
+				<input type="text" name="message" placeholder="type message here" class="flex-grow px-4 py-3 rounded-full bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-purple-500">
+				<!--<input type="hidden" name="_captcha" value="false"> 
+				<input type="text" name="_honey" style="display:none"> 
+				<input type="hidden" name="_autoresponse" value="Success - your subscription has been sent!"> -->
+				<input type="hidden" name="_blacklist" value="casino, crypto, cryptocurrency">
+				<input type="hidden" name="_subject" value="New submission from edvallee.com!">
+				<input type="hidden" name="_next" value="https://edvallee.com/thanks.html">
+                <button type="submit" class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-full font-medium transition duration-300">
+                    Send
+                </button>
+            </form>
+            
+            <p class="text-xs text-gray-500 mt-4">
+                I respect your privacy and won't share or sell your info at anytime with anyone for any reason!
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black py-12 px-6">
+        <div class="container mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-8 md:mb-0">
+                    <div class="text-2xl font-bold mb-4">
+                        <span class="text-white">ED VALLEE</span>
+                        <span class="text-purple-500">Singer/Songwriter</span>
+                    </div>
+                    <p class="text-gray-400">Independent music from the heart</p>
+                </div>
+                
+                <div class="mb-8 md:mb-0">
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-gray-400 hover:text-white transition">Home</a></li>
+                        <li><a href="#music" class="text-gray-400 hover:text-white transition">Music</a></li>
+                        <li><a href="#tour" class="text-gray-400 hover:text-white transition">Tour</a></li>
+                        <li><a href="#gallery" class="text-gray-400 hover:text-white transition">Gallery</a></li>
+						<li><a href="https://edvallee.com/contact.html" class="text-gray-400 hover:text-white transition">Contact</a></li>
+                        <li><a href="https://edvallee.bandcamp.com/track/it-doesnt-matter-anymore" target="_blank" class="text-gray-400 hover:text-white transition">Store</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Connect</h3>
+                    <div class="flex space-x-4">
+                        <a href="https://www.instagram.com/valleeed" target="_blank" class="text-gray-400 hover:text-white text-2xl transition">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/valleeed/" target="_blank" class="text-gray-400 hover:text-white text-2xl transition">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@EdVallee" target="_blank" class="text-gray-400 hover:text-white text-2xl transition">
+                            <i class="fab fa-youtube"></i>
+						<a href="https://open.spotify.com/artist/3SYhlKv92EHc4R4cSuHyS4" target="_blank" class="text-gray-400 hover:text-white text-2xl transition">
+                            <i class="fab fa-spotify"></i>	
+                        </a>
+                        <a href="https://www.tiktok.com/@valleeman" target="_blank" class="text-gray-400 hover:text-white text-2xl transition">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                        <a href="https://edvallee.bandcamp.com/track/it-doesnt-matter-anymore" target="_blank" class="text-gray-400 hover:text-white text-2xl transition">
+                            <i class="fab fa-bandcamp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-500 text-sm">
+            <!--   <p>&copy; 2025 Ed Vallee. All rights reserved.</p> -->
+			<!-- HTML code to replace the footer content in edvallee.com -->
+
+				<p style="text-align:center;">© 2000 -
+				<script language="JavaScript" type="text/javascript">
+				now = new Date
+				theYear=now.getYear()
+				if (theYear < 1900)
+				theYear=theYear+1900
+				document.write(theYear)
+				</script>
+					Ed Vallee | Official Website | All Rights Reserved | Webmaster@EdVallee.com<br>
+					Web Design by Valleeman Productions</p>
+            </div>
+        </div>
+    </footer>
+			<!-- Back to Top Button -->
+			<button id="back-to-top" class="fixed bottom-8 right-8 bg-amber-700 text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg hover:bg-amber-800 transition duration-300 hidden">
+				<i class="fas fa-arrow-up"></i>
+			</button>
+
+			<script>
+        // Mobile menu toggle
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                    
+                    // Close mobile menu if open
+                    const mobileMenu = document.getElementById('mobile-menu');
+                    if (!mobileMenu.classList.contains('hidden')) {
+                        mobileMenu.classList.add('hidden');
+                    }
+                }
+            });
+        });
+
+		 // Back to top button
+        const backToTopButton = document.getElementById('back-to-top');
+        
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopButton.classList.remove('hidden');
+            } else {
+                backToTopButton.classList.add('hidden');
+            }
+        });
+        
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+        
+        // Add fade-in animation to sections as they come into view
+        const observerOptions = {
+            threshold: 0.1
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('fade-in');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+        
+        document.querySelectorAll('section').forEach(section => {
+            observer.observe(section);
+        });
+    </script>
+</body>
+</html>
